@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-09-02T16:27:52.403289+08:00",
+  "A01": {
+    "nutrition_enteral_itemids": 112,
+    "locked_include_in_category": 90,
+    "locked_exclude_in_category": 22,
+    "unmapped_in_category": [],
+    "locked_include_not_in_Nutrition_Enteral": [],
+    "tube_procedure_items": [
+      {
+        "itemid": 225428,
+        "label": "Blakemore / Minnesota Tube D/C",
+        "category": "4-Procedures"
+      },
+      {
+        "itemid": 225429,
+        "label": "Blakemore / MinnesotaTube Inserted",
+        "category": "4-Procedures"
+      },
+      {
+        "itemid": 225433,
+        "label": "Chest Tube Placed",
+        "category": "4-Procedures"
+      },
+      {
+        "itemid": 227712,
+        "label": "Chest Tube Removed",
+        "category": "4-Procedures"
+      },
+      {
+        "itemid": 225446,
+        "label": "PEG Insertion",
+        "category": "4-Procedures"
+      },
+      {
+        "itemid": 229501,
+        "label": "Small Bore Nasal Enteral Tube Placement",
+        "category": "4-Procedures"
+      }
+    ],
+    "tube_procedure_counts": [
+      {
+        "itemid": 227712,
+        "n": 4965,
+        "stays": 4663
+      },
+      {
+        "itemid": 225433,
+        "n": 1115,
+        "stays": 941
+      },
+      {
+        "itemid": 225446,
+        "n": 536,
+        "stays": 522
+      },
+      {
+        "itemid": 229501,
+        "n": 180,
+        "stays": 164
+      },
+      {
+        "itemid": 225429,
+        "n": 47,
+        "stays": 47
+      },
+      {
+        "itemid": 225428,
+        "n": 14,
+        "stays": 14
+      }
+    ],
+    "residual_items": [
+      {
+        "itemid": 226226,
+        "label": "Enteral Nutriton Residuals",
+        "category": "Nutrition - Enteral",
+        "linksto": "chartevents"
+      },
+      {
+        "itemid": 226362,
+        "label": "ZGastric/TF Residual Intake",
+        "category": "Fluids/Intake",
+        "linksto": "inputevents"
+      },
+      {
+        "itemid": 227510,
+        "label": "TF Residual",
+        "category": "Output",
+        "linksto": "outputevents"
+      },
+      {
+        "itemid": 227511,
+        "label": "TF Residual Output",
+        "category": "Output",
+        "linksto": "outputevents"
+      }
+    ],
+    "residual_vs_en": null,
+    "interpretation": "Oral sip feeds (Ensure/Boost/Enlive/plain Glucerna) are locked exclude by author confirmation, not a mapping leak. Unmapped Nutrition-Enteral items if any would be a leak."
+  },
+  "B09": {
+    "hosp_dead": 7085,
+    "hosp_dead_dod_in_stay_window": 7085,
+    "disch_alive_with_dod": 14853,
+    "days_disch_to_dod": {
+      "min": -2524,
+      "p25": 45,
+      "p50": 208,
+      "p75": 785,
+      "max": 5627
+    },
+    "dod_within_28d_of_discharge": 2868,
+    "dod_within_28d_of_intime": 2085,
+    "dod_gt_365_after_discharge": 5448
+  },
+  "A04": {
+    "n_stays": 65358,
+    "creatinine_pre24": 20255,
+    "creatinine_pre24_pct": 30.99,
+    "creatinine_pre24_post1": 29645,
+    "creatinine_pre24_post1_pct": 45.36,
+    "creatinine_pre48_post6": 52609,
+    "creatinine_pre48_post6_pct": 80.49,
+    "lactate_pre24": 17729,
+    "lactate_pre24_pct": 27.13,
+    "lactate_pre24_post1": 23962,
+    "lactate_pre24_post1_pct": 36.66,
+    "bili_pre24": 9303,
+    "bili_pre24_pct": 14.23,
+    "bili_pre24_post1": 15014,
+    "bili_pre24_post1_pct": 22.97,
+    "creatinine_pass_ge_85": false,
+    "lactate_pass_ge_50": false
+  }
+}

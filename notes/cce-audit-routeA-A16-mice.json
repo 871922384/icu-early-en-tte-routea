@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-09-03T11:34:47.807825+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "n_stays": 11259,
+  "n_imputations": 20,
+  "cycles": 8,
+  "imputed": [
+    "sofa_resp",
+    "sofa_coag",
+    "sofa_liver",
+    "sofa_cardio",
+    "sofa_cns",
+    "sofa_renal",
+    "lactate"
+  ],
+  "keys": [
+    "anchor_age",
+    "female",
+    "vaso_t0",
+    "unit_micu",
+    "unit_sicu",
+    "unit_neuro",
+    "race_black",
+    "race_hispanic",
+    "race_asian",
+    "race_other",
+    "admission_elective",
+    "admission_emergency",
+    "charlson_conditions",
+    "dx_digestive",
+    "sofa_resp",
+    "sofa_coag",
+    "sofa_liver",
+    "sofa_cardio",
+    "sofa_cns",
+    "sofa_renal",
+    "sofa_resp",
+    "sofa_coag",
+    "sofa_liver",
+    "sofa_cardio",
+    "sofa_cns",
+    "sofa_renal",
+    "lactate"
+  ],
+  "rd": {
+    "mean": 0.15187248031665287,
+    "between_var": 1.0838858420303126e-06,
+    "within_var_from_A11": 7.098846698245766e-05,
+    "total_var": 7.21265471165895e-05,
+    "ci95": [
+      0.1352267197932316,
+      0.16851824084007416
+    ],
+    "min": 0.14963083733581345,
+    "max": 0.15331437401643228
+  },
+  "rr": {
+    "mean": 1.6700849677867935,
+    "between_var": 3.163145283922697e-05,
+    "within_var_from_A11": 0.0019753042702405714,
+    "total_var": 0.0020085172957217596,
+    "ci95": [
+      1.5822446578872678,
+      1.7579252776863192
+    ],
+    "min": 1.6585697747732095,
+    "max": 1.6781655152695611
+  },
+  "last_msm": {
+    "early_48": 0.37852386611959904,
+    "delayed_96": 0.22684655092257208,
+    "rd": 0.15167731519702696,
+    "rr": 1.6686339932441727
+  },
+  "note": "Missing indicators dropped after imputation. Within-imputation variance taken from the A11 complete-case BCa width, not a nested bootstrap. Not author-final."
+}

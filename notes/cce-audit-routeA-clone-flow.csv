@@ -1,0 +1,5 @@
+contrast,role,grace_h,clones_at_t0,artificially_censored,censored_in_final_grace_window,uncensored,initiated_en_within_deadline,initiated_en_among_uncensored,died_during_grace,died_during_grace_before_en,died_during_grace_among_uncensored,discharged_during_grace,discharged_during_grace_among_uncensored,never_en_and_survived_grace,deaths_day28_among_uncensored,deaths_day28_among_grace_period_deaths,deaths_day28_among_remainder,sum_stabilized_weights,kish_ess,pct_initiated_among_uncensored,pct_grace_death_among_uncensored
+48h_vs_96h_early,early_48,48.0,11259,7582,7582,3677,2599,2599,1123,1085,1085,471,14,0,1447,801,646,3348.195441405889,2649.6075053217637,70.68,29.51
+48h_vs_96h_delayed,delayed_96,96.0,11259,3933,106,7326,3943,10,1514,1342,1342,1393,1327,5982,1505,1020,485,7007.638659831398,6353.383342092172,0.14,18.32
+24h_vs_48h_early,early_24,24.0,11259,9277,9277,1982,1166,1166,828,820,820,170,6,0,801,506,295,1657.548964102777,1236.1159010369392,58.83,41.37
+24h_vs_48h_delayed,delayed_48,48.0,11259,2590,364,8669,2599,9,1123,1085,1085,471,457,7582,1852,763,1089,8338.728457886258,8073.220095671861,0.1,12.52

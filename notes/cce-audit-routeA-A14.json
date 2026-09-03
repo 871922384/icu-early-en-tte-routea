@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-09-02T20:51:45.808108+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "vasopressor": {
+    "ccw": {
+      "exposure": "first_vasopressor_start_relative_to_t0",
+      "n": 11259,
+      "by_48h": 5244,
+      "by_48h_pct": 46.58,
+      "msm": {
+        "early_48": 0.3138942836480815,
+        "delayed_96": 0.3760145745528066,
+        "rd": -0.06212029090472515,
+        "rr": 0.8347928641367035,
+        "events": 2715,
+        "days": 251057,
+        "n_uncensored_early": 5541,
+        "n_uncensored_delayed": 6128,
+        "horizon_days": 28,
+        "early_48_p50": 0.23606275200797394,
+        "delayed_96_p50": 0.30734538704987335
+      },
+      "note": "Same 48h vs 96h CCW+IPCW+MSM. Expected direction if the pipeline recovered a harmful exposure: RR > 1."
+    },
+    "baseline_vaso_t0": {
+      "exposure": "vasopressor_overlapping_t0_plus_minus_6h",
+      "n": 11259,
+      "n_vaso": 4473,
+      "crude_vaso": 0.30672926447574334,
+      "crude_no_vaso": 0.17138225758915415,
+      "gcomputation": {
+        "vaso": 0.2471977193529296,
+        "no_vaso": 0.20627720647442782,
+        "rd": 0.04092051287850179,
+        "rr": 1.1983763188279104
+      },
+      "expected_direction": "RR > 1"
+    }
+  },
+  "baseline_invasive_ventilation": {
+    "exposure": "invasive_ventilation_plus_minus_6h_of_intime",
+    "cohort": "all_first_icu_stays",
+    "n": 65358,
+    "n_vent": 19922,
+    "vent_pct": 30.48,
+    "crude": {
+      "vent": 0.15661078204999498,
+      "no_vent": 0.11308213751210494,
+      "rd": 0.04352864453789004,
+      "rr": 1.384929445936857
+    },
+    "gcomputation": {
+      "vent": 0.17885646940363778,
+      "no_vent": 0.10688721538542371,
+      "rd": 0.07196925401821407,
+      "rr": 1.673319571089028
+    },
+    "expected_direction": "RR > 1 (invasive ventilation associated with higher 28-day death)",
+    "note": "Not CCW. Baseline binary exposure on the unrestricted first-stay cohort because the Route A analysis set is 100% ventilated. Missing dod treated as alive at day 28."
+  },
+  "note": "Not author-final. Not copied into the 24h manuscript."
+}

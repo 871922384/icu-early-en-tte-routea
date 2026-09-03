@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-09-02T16:30:05.618060+08:00",
+  "A01_tube": [
+    {
+      "itemid": 225446,
+      "stays": 367,
+      "en_in_24h": 10,
+      "any_en": 356,
+      "en_in_24h_pct": 2.7
+    },
+    {
+      "itemid": 229501,
+      "stays": 101,
+      "en_in_24h": 50,
+      "any_en": 93,
+      "en_in_24h_pct": 49.5
+    }
+  ],
+  "A01_residual": {
+    "stays_resid": 7402,
+    "resid_no_qualifying_en": 1313,
+    "resid_no_en_pct": 17.7
+  },
+  "routeA_restricted": {
+    "excluded_units": [
+      "CVICU",
+      "CCU"
+    ],
+    "n": 11259,
+    "en24": 1166,
+    "en24_pct": 10.36,
+    "en48": 2599,
+    "en48_pct": 23.08,
+    "no_en_by_96": 7318,
+    "no_en_by_96_pct": 65.0,
+    "en_48_to_96": 1342,
+    "en_48_to_96_pct": 11.92,
+    "a00_en48_ge_25": false,
+    "a00_en48_ge_15": true,
+    "dead28_dod_convention": 2857,
+    "no_dod_treated_alive": 6358,
+    "inhosp_dead_by_d28": 2486,
+    "discharged_alive_before_d28": 7778,
+    "inhosp_dead_any": 2583,
+    "median_hosp_days_from_t0": 8.06216865443976,
+    "vaso_pm6": 4473,
+    "vaso_pm6_pct": 39.7,
+    "parquet": "/Users/rex/code/litflow/projects/icu-early-nutrition-tte/workspace/metered-results/cohort/routeA_restricted_stays.parquet"
+  },
+  "A04_restricted_creatinine": {
+    "n": 11259,
+    "t0_minus24_plus1": 7056,
+    "t0_minus24_plus1_pct": 62.7,
+    "admittime_to_t0_plus1": 6766,
+    "admittime_to_t0_plus1_pct": 60.1
+  }
+}

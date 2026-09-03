@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-09-02T17:04:01.574568+08:00",
+  "n": 11259,
+  "window": "[t0-24h, t0+1h]",
+  "sofa_component_coverage": {
+    "resp": {
+      "missing": 5591,
+      "observed": 5668,
+      "observed_pct": 50.34
+    },
+    "coag": {
+      "missing": 4250,
+      "observed": 7009,
+      "observed_pct": 62.25
+    },
+    "liver": {
+      "missing": 7560,
+      "observed": 3699,
+      "observed_pct": 32.85
+    },
+    "cardio": {
+      "missing": 98,
+      "observed": 11161,
+      "observed_pct": 99.13
+    },
+    "cns": {
+      "missing": 1891,
+      "observed": 9368,
+      "observed_pct": 83.2
+    },
+    "renal": {
+      "missing": 1190,
+      "observed": 10069,
+      "observed_pct": 89.43
+    },
+    "any_component_missing": 9177,
+    "complete_six": 2082,
+    "complete_six_pct": 18.49
+  },
+  "lactate_observed": 5459,
+  "lactate_observed_pct": 48.49,
+  "oral_care_any": 10856,
+  "oral_care_by_48h": 10844,
+  "oral_care_by_48h_pct": 96.31,
+  "oral_care_by_96h": 10855,
+  "position_any": 9855,
+  "position_by_48h": 9686,
+  "position_by_48h_pct": 86.03,
+  "position_by_96h": 9785,
+  "chg_any": 932,
+  "chg_by_48h": 808,
+  "chg_by_48h_pct": 7.18,
+  "chg_by_96h": 897,
+  "parquet_sofa": "/Users/rex/code/litflow/projects/icu-early-nutrition-tte/workspace/metered-results/cohort/routeA_sofa_full.parquet",
+  "parquet_nc": "/Users/rex/code/litflow/projects/icu-early-nutrition-tte/workspace/metered-results/cohort/routeA_negative_control_events.parquet",
+  "note": "No mimiciv_derived.sofa on the 3.1 gzip dump; components rebuilt from labevents/chartevents/outputevents. Urine window is the same 25 h SOFA window. Negative-control hours are first event at or after t0."
+}

@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-09-02T16:34:13.662091+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "n_stays": 11259,
+  "dead28": 2535,
+  "clones": 22518,
+  "early_censored": 7582,
+  "delayed_censored": 3933,
+  "person_periods": 234338,
+  "ridge": 0.01,
+  "bootstrap_replicates_qc": 100,
+  "estimate": {
+    "early_48": {
+      "n_uncensored": 3345,
+      "weight_sum": 3359.3355971976757,
+      "risk": 0.4058467966840578,
+      "w_min": 0.35436986287410194,
+      "w_max": 7.8512880793392394,
+      "w_median": 0.9807507106997336
+    },
+    "delayed_96": {
+      "n_uncensored": 6994,
+      "weight_sum": 7010.861446299462,
+      "risk": 0.22752705318262573,
+      "w_min": 0.6484343526897383,
+      "w_max": 6.684464072783557,
+      "w_median": 0.9602805025132193
+    },
+    "rd": 0.1783197435014321,
+    "rr": 1.7837298510533728
+  },
+  "bootstrap": {
+    "n_requested": 100,
+    "n_ok": 100,
+    "n_failed": 0,
+    "rd_ci": [
+      0.16142869100372825,
+      0.19728311317438535
+    ],
+    "rr_ci": [
+      1.6988090418387454,
+      1.8860747231724115
+    ]
+  },
+  "note": "28-day death treats missing dod as alive. Restricted non-CVICU/CCU ventilated cohort. Not 2000 BCa. Not MSM g-computation."
+}

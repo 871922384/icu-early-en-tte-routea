@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-09-03T10:02:55.355950+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "volume_B_mounted": true,
+  "n_index": 138704,
+  "vent_definition": "respiratoryCare.ventstartoffset in [-360, +360] minutes from unit admit (Route A analogue of \u00b16 h). apachePredVar ventday1/oobventday1 is a day-1 flag, not \u00b16 h.",
+  "overall_first_stays": {
+    "label": "all_first_stays",
+    "n": 138704,
+    "en24": 1238,
+    "en24_pct": 0.89,
+    "en48": 2874,
+    "en48_pct": 2.07,
+    "no_en_by_96": 134358,
+    "no_en_by_96_pct": 96.87,
+    "dead28_if_death_hour": 12505,
+    "a00_en48_ge_15": false,
+    "a00_en48_ge_25": false
+  },
+  "routeA_vent_pm6": {
+    "label": "vent_pm6_respiratoryCare",
+    "n": 31719,
+    "en24": 638,
+    "en24_pct": 2.01,
+    "en48": 1528,
+    "en48_pct": 4.82,
+    "no_en_by_96": 29336,
+    "no_en_by_96_pct": 92.49,
+    "dead28_if_death_hour": 6158,
+    "a00_en48_ge_15": false,
+    "a00_en48_ge_25": false
+  },
+  "routeA_vent_pm6_no_cardiac": {
+    "label": "vent_pm6_excluding_cardiac_units",
+    "n": 22730,
+    "en24": 525,
+    "en24_pct": 2.31,
+    "en48": 1265,
+    "en48_pct": 5.57,
+    "no_en_by_96": 20815,
+    "no_en_by_96_pct": 91.58,
+    "dead28_if_death_hour": 4801,
+    "a00_en48_ge_15": false,
+    "a00_en48_ge_25": false
+  },
+  "apache_day1_vent": {
+    "label": "apache_vent_or_oobvent_day1",
+    "n": 42544,
+    "en24": 915,
+    "en24_pct": 2.15,
+    "en48": 2156,
+    "en48_pct": 5.07,
+    "no_en_by_96": 39330,
+    "no_en_by_96_pct": 92.45,
+    "dead28_if_death_hour": 8117,
+    "a00_en48_ge_15": false,
+    "a00_en48_ge_25": false
+  },
+  "clone_flow_48_96_vent_pm6": {
+    "n": 31719,
+    "early_censored": 27837,
+    "early_uncensored": 3882,
+    "initiated_en_by_early": 1528,
+    "died_grace_before_en_early": 2355,
+    "delayed_censored": 2381,
+    "delayed_uncensored": 29338,
+    "never_en_by_delay_approx": 29337
+  },
+  "unit_csv": "notes/cce-audit-routeA-A15-eicu-units.csv",
+  "identifiable_48_96": false,
+  "decision": "Route A 48/96 is not identifiable in eICU under either the \u00b16 h respiratoryCare vent flag or the cardiac-unit exclusion: EN-by-48h remains ~5%. Do not transport the MIMIC MSM. Writing should use B15(a): feasibility replication of initiation frequency and clone flow, not a transportability analysis and not an eICU effect estimate.",
+  "prior_24h_qc": {
+    "en_by_24_all_first_stays_pct": 0.89
+  },
+  "note": "eICU has no state death registry equivalent to patients.dod. death_hour is hospital death timing. Not author-final."
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-02T20:51:45.155224+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "observed_rr": 1.6461638455663785,
+  "observed_rd": 0.14687081512501515,
+  "n_draws": 10000,
+  "priors": {
+    "U": "unmeasured baseline severity / comfort-care trajectory, binary",
+    "p_delayed": "Uniform(0.05, 0.30)",
+    "prevalence_difference_early_minus_delayed": "Uniform(0.10, 0.40)",
+    "RR_UD": "LogNormal(log 2.0, 0.287); median 2, approx 95% 1.3-4.0",
+    "bias_model": "multiplicative RR bias factor (RR_UD*p1+(1-p1))/(RR_UD*p0+(1-p0))"
+  },
+  "adjusted_rr": {
+    "p50": 1.3763430661188818,
+    "p025": 1.0607922484307672,
+    "p975": 1.6013563700761648,
+    "prob_rr_gt_1": 0.9916,
+    "prob_rr_gt_obs": 0.0066
+  },
+  "adjusted_rd_if_delayed_risk_held": {
+    "p50": 0.08554148188077407,
+    "p025": 0.013817868550790027,
+    "p975": 0.13668623037287156
+  },
+  "bias_factor": {
+    "p50": 1.1960418053997803,
+    "p025": 1.0279809520612615,
+    "p975": 1.5518249215045747
+  },
+  "required_sentence": "The E-value and this bias analysis address unmeasured confounding only; they do not quantify positivity violations or the structural composition of grace-period risk sets, which remain the dominant threats in this contrast.",
+  "note": "Not author-final. Not copied into the 24h manuscript."
+}

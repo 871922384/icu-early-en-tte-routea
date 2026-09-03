@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-02T17:44:38.832516+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "source": "notes/cce-audit-routeA-A11-bca.json",
+  "rr": 1.6461638455663785,
+  "bca_rr": [
+    1.5660946648660876,
+    1.7403166942947013
+  ],
+  "evalue_point": 2.6775180819388815,
+  "evalue_ci_near_null": 2.507666666603573,
+  "ci_limit_used": 1.5660946648660876,
+  "required_sentence": "The E-value addresses unmeasured confounding only; it does not quantify positivity violations or the structural composition of grace-period risk sets, which remain the dominant threats in this contrast.",
+  "note": "Not copied into the 24h manuscript. Not author-final. Probabilistic bias analysis (A12 second half) not yet run."
+}

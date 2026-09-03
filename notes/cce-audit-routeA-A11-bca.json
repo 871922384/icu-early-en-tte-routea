@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-09-02T17:43:49.854729+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "estimator": "vectorized_msm_gcomputation_same_ridge_rcs_ipcw_as_A06",
+  "n_stays": 11259,
+  "keys": [
+    "anchor_age",
+    "female",
+    "vaso_t0",
+    "unit_micu",
+    "unit_sicu",
+    "unit_neuro",
+    "race_black",
+    "race_hispanic",
+    "race_asian",
+    "race_other",
+    "admission_elective",
+    "admission_emergency",
+    "charlson_conditions",
+    "dx_digestive",
+    "sofa_resp",
+    "sofa_resp_miss",
+    "sofa_coag",
+    "sofa_coag_miss",
+    "sofa_liver",
+    "sofa_liver_miss",
+    "sofa_cardio",
+    "sofa_cns",
+    "sofa_cns_miss",
+    "sofa_renal",
+    "sofa_renal_miss",
+    "lactate_filled",
+    "lactate_missing"
+  ],
+  "point": {
+    "early_48": 0.37416736867371964,
+    "delayed_96": 0.22729655354870448,
+    "rd": 0.14687081512501515,
+    "rr": 1.6461638455663785,
+    "events": 2932,
+    "days": 223554
+  },
+  "bootstrap": {
+    "n_requested": 2000,
+    "n_ok": 2000,
+    "n_failed": 0,
+    "fail_reasons": {},
+    "percentile_rd": [
+      0.13030351033771428,
+      0.163239964851098
+    ],
+    "percentile_rr": [
+      1.5601894319278828,
+      1.7367286176165775
+    ]
+  },
+  "jackknife": {
+    "n_groups": 200,
+    "n_ok": 200,
+    "n_failed": 0
+  },
+  "bca_rd": {
+    "z0": 0.04011681021702674,
+    "a": 0.0034051879161807637,
+    "p_lo": 0.030945473083702324,
+    "p_hi": 0.9799987493468982,
+    "interval": [
+      0.13096838492458115,
+      0.16399620924044
+    ],
+    "n_boot": 2000,
+    "n_jack_groups": 200,
+    "n_below_theta": 1032
+  },
+  "bca_rr": {
+    "z0": 0.05642906918951776,
+    "a": 0.0025572743350043095,
+    "p_lo": 0.03305337163860084,
+    "p_hi": 0.9813782312899619,
+    "interval": [
+      1.5660946648660876,
+      1.7403166942947013
+    ],
+    "n_boot": 2000,
+    "n_jack_groups": 200,
+    "n_below_theta": 1045
+  },
+  "acceleration_note": "Acceleration a uses a 200-group delete-group jackknife of subjects, not a full n=11,259 leave-one-out jackknife.",
+  "note": "Not author-final. Do not copy into the 24h manuscript without author confirmation."
+}

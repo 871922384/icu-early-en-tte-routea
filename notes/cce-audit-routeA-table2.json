@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-09-03T12:34:33.322510+08:00",
+  "n_eligible": 11259,
+  "n_en48": 2599,
+  "n_no_en48": 8660,
+  "n_uncensored_early": 3677,
+  "n_smd_rows": 54,
+  "n_smd_unweighted_gt_0_10": 21,
+  "n_smd_weighted_gt_0_10": 6,
+  "careunit_full": {
+    "MICU": 3165,
+    "Trauma SICU": 2794,
+    "SICU": 2556,
+    "MICU/SICU": 1795,
+    "Neuro SICU": 458,
+    "Neuro other": 404,
+    "Other": 87
+  },
+  "msm_point_check": {
+    "early_48": 0.37416736867371964,
+    "delayed_96": 0.22729655354870448,
+    "rd": 0.14687081512501515,
+    "rr": 1.6461638455663785
+  },
+  "primary_msm_unchanged": true,
+  "csv": "notes/cce-audit-routeA-table2.csv",
+  "md": "notes/cce-audit-routeA-table2.md"
+}

@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-09-03T11:36:33.015828+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "n_stays": 19919,
+  "en48": 2807,
+  "en48_pct": 14.09,
+  "n_cvicu": 7375,
+  "n_ccu": 1285,
+  "a00_en48_ge_15": false,
+  "msm": {
+    "early_48": 0.32565288490076605,
+    "delayed_96": 0.14574160506258343,
+    "rd": 0.17991127983818261,
+    "rr": 2.2344538113253676,
+    "n_uncensored_early": 3713,
+    "n_uncensored_delayed": 15060
+  },
+  "hajek": {
+    "rd": 0.2819733246369174,
+    "rr": 2.9551753862349277,
+    "early": 0.4261922661304026,
+    "delayed": 0.14421894149348521
+  },
+  "bootstrap_100": {
+    "n_ok": 100,
+    "n_failed": 0,
+    "rd_ci": [
+      0.15736291371974162,
+      0.20079587236642762
+    ],
+    "rr_ci": [
+      2.070806822224911,
+      2.360677395882259
+    ]
+  },
+  "keys": [
+    "anchor_age",
+    "female",
+    "vaso_t0",
+    "unit_micu",
+    "unit_sicu",
+    "unit_neuro",
+    "race_black",
+    "race_hispanic",
+    "race_asian",
+    "race_other",
+    "admission_elective",
+    "admission_emergency",
+    "charlson_conditions",
+    "dx_digestive",
+    "unit_cvicu",
+    "unit_ccu",
+    "sofa_resp",
+    "sofa_resp_miss",
+    "sofa_coag",
+    "sofa_coag_miss",
+    "sofa_liver",
+    "sofa_liver_miss",
+    "sofa_cardio",
+    "sofa_cns",
+    "sofa_cns_miss",
+    "sofa_renal",
+    "sofa_renal_miss",
+    "lactate_filled",
+    "lactate_missing"
+  ],
+  "note": "Vent \u00b16 h, no EN before t0, CVICU and CCU included. Missing dod as alive. Not 2,000 BCa. Not author-final."
+}

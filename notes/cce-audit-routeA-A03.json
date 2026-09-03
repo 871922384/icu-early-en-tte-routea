@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-03T12:54:57.421059+08:00",
+  "n": 11259,
+  "conversion": "Kotani 2023: NE=1, EPI=1, phenylephrine/10, dopamine/100, vasopressin units/min*2.5; vasopressin stored units/hour so factor 2.5/60",
+  "window": "[t0-6h, t0+6h]",
+  "locked_itemids": [
+    221906,
+    221289,
+    221749,
+    229630,
+    229632,
+    221662,
+    222315
+  ],
+  "n_vaso_window": 4473,
+  "pct_vaso_window": 39.73,
+  "n_vaso_running_at_t0": 1651,
+  "pct_vaso_running_at_t0": 14.66,
+  "audit_bar_10_25": "fail_window_pct_39.7_expected_in_ventilated_noncardiac",
+  "ne_eq_window_among_exposed": {
+    "n": 4473,
+    "mean": 0.431,
+    "p25": 0.1,
+    "p50": 0.2,
+    "p75": 0.45,
+    "p95": 1.172
+  },
+  "ne_eq_at_t0_among_running": {
+    "n": 1651,
+    "mean": 0.249,
+    "p50": 0.15,
+    "p25": 0.07,
+    "p75": 0.301
+  },
+  "by_en48": {
+    "en48": {
+      "n": 2599,
+      "n_vaso": 1048,
+      "pct_vaso": 40.3,
+      "ne_eq_median": 0.15,
+      "ne_eq_q25": 0.08,
+      "ne_eq_q75": 0.353,
+      "ne_eq_mean": 0.326
+    },
+    "no_en48": {
+      "n": 8660,
+      "n_vaso": 3425,
+      "pct_vaso": 39.5,
+      "ne_eq_median": 0.2,
+      "ne_eq_q25": 0.1,
+      "ne_eq_q75": 0.499,
+      "ne_eq_mean": 0.464
+    },
+    "eligible": {
+      "n": 11259,
+      "n_vaso": 4473,
+      "pct_vaso": 39.7,
+      "ne_eq_median": 0.2,
+      "ne_eq_q25": 0.1,
+      "ne_eq_q75": 0.45,
+      "ne_eq_mean": 0.431
+    }
+  },
+  "primary_msm_unchanged": true,
+  "parquet": "/Users/rex/code/litflow/projects/icu-early-nutrition-tte/workspace/metered-results/cohort/routeA_a03_nedose.parquet"
+}

@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-09-02T17:04:16.350044+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "grace": "48h vs no event by 96h, same CCW+IPCW+MSM as Route A EN",
+  "keys": [
+    "anchor_age",
+    "female",
+    "vaso_t0",
+    "unit_micu",
+    "unit_sicu",
+    "unit_neuro",
+    "race_black",
+    "race_hispanic",
+    "race_asian",
+    "race_other",
+    "admission_elective",
+    "admission_emergency",
+    "charlson_conditions",
+    "dx_digestive",
+    "sofa_resp",
+    "sofa_resp_miss",
+    "sofa_coag",
+    "sofa_coag_miss",
+    "sofa_liver",
+    "sofa_liver_miss",
+    "sofa_cardio",
+    "sofa_cns",
+    "sofa_cns_miss",
+    "sofa_renal",
+    "sofa_renal_miss",
+    "lactate_filled",
+    "lactate_missing"
+  ],
+  "results": {
+    "oral_care_226168": {
+      "exposure_key": "oral_care_h",
+      "prevalence": {
+        "n": 11259,
+        "any": 10856,
+        "by_48h": 10844,
+        "by_48h_pct": 96.31,
+        "by_96h": 10855,
+        "by_96h_pct": 96.41,
+        "none_by_96h": 404
+      },
+      "n_stays_in_bundle": null,
+      "outcome_person_days": 254368,
+      "msm_events": 2675,
+      "hajek": {
+        "early_48": 0.23261534246648166,
+        "delayed_96": 0.48139663134619814,
+        "rd": -0.24878128887971648,
+        "rr": 0.4832093274437467,
+        "n_uncensored_early": 10747,
+        "n_uncensored_delayed": 320
+      },
+      "ht": {
+        "early_48": 0.2251979321610553,
+        "delayed_96": 0.16624995703009257,
+        "rd": 0.058947975130962726,
+        "rr": 1.3545743781473139
+      },
+      "msm_gcomputation": {
+        "early_48": 0.23757898606335046,
+        "early_48_p50": 0.18706203646931704,
+        "early_48_p05": 0.03352679123732581,
+        "early_48_p95": 0.6164888769260922,
+        "delayed_96": 0.38269601159825567,
+        "delayed_96_p50": 0.3552508899983267,
+        "delayed_96_p05": 0.07640986515161495,
+        "delayed_96_p95": 0.7876734125719422,
+        "rd": -0.14511702553490521,
+        "rr": 0.6208034023431493
+      }
+    },
+    "position_224066_227952": {
+      "exposure_key": "position_h",
+      "prevalence": {
+        "n": 11259,
+        "any": 9855,
+        "by_48h": 9686,
+        "by_48h_pct": 86.03,
+        "by_96h": 9785,
+        "by_96h_pct": 86.91,
+        "none_by_96h": 1474
+      },
+      "n_stays_in_bundle": null,
+      "outcome_person_days": 252547,
+      "msm_events": 2880,
+      "hajek": {
+        "early_48": 0.2277757912994025,
+        "delayed_96": 0.44106531839110324,
+        "rd": -0.21328952709170074,
+        "rr": 0.5164219035182182,
+        "n_uncensored_early": 9937,
+        "n_uncensored_delayed": 1265
+      },
+      "ht": {
+        "early_48": 0.2160354128685404,
+        "delayed_96": 0.3682549815202782,
+        "rd": -0.1522195686517378,
+        "rr": 0.5866462742110775
+      },
+      "msm_gcomputation": {
+        "early_48": 0.23254901183119464,
+        "early_48_p50": 0.17996245868656965,
+        "early_48_p05": 0.030585100194906328,
+        "early_48_p95": 0.6205129249042942,
+        "delayed_96": 0.43748238737766154,
+        "delayed_96_p50": 0.40594209127237657,
+        "delayed_96_p05": 0.07996798708453709,
+        "delayed_96_p95": 0.9035753798649842,
+        "rd": -0.2049333755464669,
+        "rr": 0.5315619977872255
+      }
+    },
+    "chg_bath_228137": {
+      "exposure_key": "chg_h",
+      "prevalence": {
+        "n": 11259,
+        "any": 932,
+        "by_48h": 808,
+        "by_48h_pct": 7.18,
+        "by_96h": 897,
+        "by_96h_pct": 7.97,
+        "none_by_96h": 10362
+      },
+      "n_stays_in_bundle": null,
+      "outcome_person_days": 253408,
+      "msm_events": 3280,
+      "hajek": {
+        "early_48": 0.6747611871826608,
+        "delayed_96": 0.2335290561815501,
+        "rd": 0.4412321310011107,
+        "rr": 2.8894099869871788,
+        "n_uncensored_early": 1568,
+        "n_uncensored_delayed": 10044
+      },
+      "ht": {
+        "early_48": 0.5394398837968883,
+        "delayed_96": 0.22423135682115666,
+        "rd": 0.31520852697573165,
+        "rr": 2.4057290266817453
+      },
+      "msm_gcomputation": {
+        "early_48": 0.5500435565979973,
+        "early_48_p50": 0.5553946763915847,
+        "early_48_p05": 0.1293851827598898,
+        "early_48_p95": 0.9600543137574891,
+        "delayed_96": 0.23748220349818333,
+        "delayed_96_p50": 0.18543383218316484,
+        "delayed_96_p05": 0.0324299764369638,
+        "delayed_96_p95": 0.6286353637169985,
+        "rd": 0.312561353099814,
+        "rr": 2.316146424850757
+      }
+    }
+  },
+  "interpretation_rule": "If a negative-control contrast is similar in magnitude and direction to the EN contrast, the pipeline is mainly measuring the severity that prompts a day-1 intervention.",
+  "note": "Not author-final. Not copied into the 24h manuscript."
+}

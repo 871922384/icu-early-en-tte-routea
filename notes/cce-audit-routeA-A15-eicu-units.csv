@@ -1,0 +1,9 @@
+label,n,en24,en24_pct,en48,en48_pct,no_en_by_96,no_en_by_96_pct,dead28_if_death_hour,a00_en48_ge_15,a00_en48_ge_25
+CCU-CTICU,2996,25,0.83,69,2.3,2850,95.13,476,False,False
+CSICU,1781,31,1.74,75,4.21,1632,91.63,185,False,False
+CTICU,1694,5,0.3,10,0.59,1672,98.7,129,False,False
+Cardiac ICU,2518,52,2.07,109,4.33,2367,94.0,567,False,False
+MICU,2563,46,1.79,105,4.1,2421,94.46,684,False,False
+Med-Surg ICU,15098,357,2.36,820,5.43,13824,91.56,3130,False,False
+Neuro ICU,2545,54,2.12,174,6.84,2267,89.08,586,False,False
+SICU,2524,68,2.69,166,6.58,2303,91.24,401,False,False

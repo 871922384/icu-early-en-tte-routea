@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-09-02T16:45:24.435468+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "b01": "MSM g-computation standardizes both strategies to the empirical baseline distribution of the restricted eligible cohort.",
+  "n_stays": 11259,
+  "outcome_person_days": 223554,
+  "msm_events": 2932,
+  "rcs_knots_days": [
+    4.0,
+    14.0,
+    24.0
+  ],
+  "hajek_stabilized": {
+    "early_48": {
+      "n_uncensored": 3345,
+      "weight_sum": 3359.3355971976757,
+      "risk": 0.4058467966840578,
+      "w_min": 0.35436986287410194,
+      "w_max": 7.8512880793392394,
+      "w_median": 0.9807507106997336
+    },
+    "delayed_96": {
+      "n_uncensored": 6994,
+      "weight_sum": 7010.861446299462,
+      "risk": 0.22752705318262573,
+      "w_min": 0.6484343526897383,
+      "w_max": 6.684464072783557,
+      "w_median": 0.9602805025132193
+    },
+    "rd": 0.1783197435014321,
+    "rr": 1.7837298510533728
+  },
+  "horvitz_thompson_unstabilized": {
+    "early_48": {
+      "n_uncensored": 3345,
+      "weighted_event_sum": 3223.1811658286183,
+      "risk": 0.28627597174070685
+    },
+    "delayed_96": {
+      "n_uncensored": 6994,
+      "weighted_event_sum": 2158.4411805113546,
+      "risk": 0.19170807181022778
+    },
+    "rd": 0.09456789993047907,
+    "rr": 1.4932911746360478
+  },
+  "msm_gcomputation": {
+    "early_48": 0.38776766695873327,
+    "early_48_p50": 0.36106054134300414,
+    "early_48_p05": 0.08843875093084085,
+    "early_48_p95": 0.7833832396927725,
+    "delayed_96": 0.22461007476730865,
+    "delayed_96_p50": 0.19103855808631562,
+    "delayed_96_p05": 0.042506464902940695,
+    "delayed_96_p95": 0.5239658150035451,
+    "rd": 0.16315759219142462,
+    "rr": 1.7264037125692269
+  },
+  "smd": {
+    "n_covariate_strategy_rows": 32,
+    "n_smd_unweighted_gt_0_10": 8,
+    "n_smd_weighted_gt_0_10": 0,
+    "csv": "notes/cce-audit-routeA-B01-smd.csv"
+  },
+  "bootstrap_msm": {
+    "n_requested": 100,
+    "n_ok": 100,
+    "n_failed": 0,
+    "rd_ci": [
+      0.14853580557826104,
+      0.18233222746890557
+    ],
+    "rr_ci": [
+      1.6483343097571264,
+      1.8341693411811195
+    ]
+  },
+  "note": "Target population is the restricted ventilated non-CVICU/CCU eligible cohort. Missing dod treated as alive at day 28. Not Firth. Reduced SOFA still used."
+}

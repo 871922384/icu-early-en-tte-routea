@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-02T16:16:40.548243+08:00",
+  "audit": "reviews/cce-revision-audit-20260902.md",
+  "route": "A",
+  "n_index_stays": 65358,
+  "vent_overlap_intime_old": 1882,
+  "vent_pm6h": 19922,
+  "vent_pm6h_pct_of_index": 30.48,
+  "en_before_new_t0": 3,
+  "eligible_routeA": 19919,
+  "en_by_24": 1232,
+  "en_by_24_pct": 6.19,
+  "en_by_48": 2807,
+  "en_by_48_pct": 14.09,
+  "no_en_by_96": 15475,
+  "no_en_by_96_pct": 77.69,
+  "en_between_48_96": 1637,
+  "en_between_48_96_pct": 8.22,
+  "a00_pass_en48_ge_25": false,
+  "a00_fail_en48_lt_15": true,
+  "vaso_pm6_eligible": 11382,
+  "vaso_pm6_pct": 57.14,
+  "dod": {
+    "n": 65358,
+    "hosp_dead": 7085,
+    "has_dod": 21938,
+    "hosp_dead_no_dod": 0,
+    "disch_alive_has_dod": 14853,
+    "obs28_current": 21938,
+    "dead28_current_def": 8817,
+    "post_discharge_dead_by_d28": 2088
+  },
+  "careunit": [
+    {
+      "unit": "Cardiac Vascular Intensive Care Unit (CVICU)",
+      "n": 7375
+    },
+    {
+      "unit": "Medical Intensive Care Unit (MICU)",
+      "n": 3165
+    },
+    {
+      "unit": "Trauma SICU (TSICU)",
+      "n": 2794
+    },
+    {
+      "unit": "Surgical Intensive Care Unit (SICU)",
+      "n": 2556
+    },
+    {
+      "unit": "Medical/Surgical Intensive Care Unit (MICU/SICU)",
+      "n": 1795
+    },
+    {
+      "unit": "Coronary Care Unit (CCU)",
+      "n": 1285
+    },
+    {
+      "unit": "Neuro Surgical Intensive Care Unit (Neuro SICU)",
+      "n": 458
+    },
+    {
+      "unit": "Neuro Intermediate",
+      "n": 272
+    },
+    {
+      "unit": "Neuro Stepdown",
+      "n": 132
+    },
+    {
+      "unit": "Surgery/Vascular/Intermediate",
+      "n": 52
+    },
+    {
+      "unit": "PACU",
+      "n": 13
+    },
+    {
+      "unit": "Medicine",
+      "n": 11
+    },
+    {
+      "unit": "Intensive Care Unit (ICU)",
+      "n": 6
+    },
+    {
+      "unit": "Surgery/Trauma",
+      "n": 3
+    },
+    {
+      "unit": "Medicine/Cardiology Intermediate",
+      "n": 1
+    },
+    {
+      "unit": "Med/Surg",
+      "n": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-09-02T20:51:45.119551+08:00",
+  "status": "pipeline_qc_not_author_final",
+  "n_models_firth": 32,
+  "n_converged_firth": 32,
+  "n_degenerate_no_censoring_events": 15,
+  "ridge": 0.01,
+  "csv": "notes/cce-audit-routeA-A09-weight-models.csv",
+  "firth_msm_gcomputation": {
+    "early_48": 0.36926891758883007,
+    "delayed_96": 0.225901381706386,
+    "rd": 0.14336753588244408,
+    "rr": 1.6346465647951867
+  },
+  "note": "Primary A11/A06 weights used ridge 0.01. Firth is the A09 alternative. Predicted probabilities are untruncated in the diagnostic table; IPCW still clips denominator p to 1e-4 as in the Route A QC pipeline.",
+  "histogram": "notes/cce-audit-routeA-A09-p-hist.png",
+  "p_distribution_firth": {
+    "n": 234338,
+    "min": 0.014739201075523841,
+    "p01": 0.16418432792643506,
+    "p25": 0.9661813390329718,
+    "p50": 0.9895290870442379,
+    "p75": 1.0,
+    "p99": 1.0,
+    "max": 1.0,
+    "n_lt_1e4": 0
+  }
+}

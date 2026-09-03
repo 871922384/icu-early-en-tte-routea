@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-09-03T12:30:19.506755+08:00",
+  "n": 11259,
+  "parquet": "/Users/rex/code/litflow/projects/icu-early-nutrition-tte/workspace/metered-results/cohort/routeA_a05_covariates.parquet",
+  "sepsis3": "unavailable_no_mimiciv_derived_sepsis3",
+  "elixhauser": "Quan 2005 ICD-9/ICD-10 prefixes with AHRQ hierarchy; discharge-coded",
+  "weight_itemid": 226512,
+  "lab_window": "[t0-24h, t0+1h] closest to t0 by hadm_id",
+  "chart_window": "[t0-24h, t0+6h] closest to t0 by stay_id",
+  "primary_msm_unchanged": true,
+  "coverage": {
+    "weight_kg": {
+      "n": 11259,
+      "observed": 11155,
+      "observed_pct": 99.08
+    },
+    "gcs_sum": {
+      "n": 11259,
+      "observed": 9368,
+      "observed_pct": 83.2
+    },
+    "peep": {
+      "n": 11259,
+      "observed": 11208,
+      "observed_pct": 99.55
+    },
+    "fio2": {
+      "n": 11259,
+      "observed": 11216,
+      "observed_pct": 99.62
+    },
+    "vt_ml": {
+      "n": 11259,
+      "observed": 11172,
+      "observed_pct": 99.23
+    },
+    "hospital_los_days": {
+      "n": 11259,
+      "observed": 11259,
+      "observed_pct": 100.0
+    },
+    "hb": {
+      "n": 11259,
+      "observed": 7008,
+      "observed_pct": 62.24
+    },
+    "wbc": {
+      "n": 11259,
+      "observed": 7005,
+      "observed_pct": 62.22
+    },
+    "sodium": {
+      "n": 11259,
+      "observed": 6985,
+      "observed_pct": 62.04
+    },
+    "potassium": {
+      "n": 11259,
+      "observed": 6983,
+      "observed_pct": 62.02
+    },
+    "glucose": {
+      "n": 11259,
+      "observed": 6958,
+      "observed_pct": 61.8
+    },
+    "albumin": {
+      "n": 11259,
+      "observed": 2622,
+      "observed_pct": 23.29
+    },
+    "ph": {
+      "n": 11259,
+      "observed": 5982,
+      "observed_pct": 53.13
+    },
+    "inr": {
+      "n": 11259,
+      "observed": 6159,
+      "observed_pct": 54.7
+    },
+    "lactate": {
+      "n": 11259,
+      "observed": 5459,
+      "observed_pct": 48.49
+    },
+    "creatinine": {
+      "n": 11259,
+      "observed": 7056,
+      "observed_pct": 62.67
+    },
+    "bilirubin": {
+      "n": 11259,
+      "observed": 3699,
+      "observed_pct": 32.85
+    },
+    "platelet": {
+      "n": 11259,
+      "observed": 7009,
+      "observed_pct": 62.25
+    },
+    "po2": {
+      "n": 11259,
+      "observed": 5865,
+      "observed_pct": 52.09
+    }
+  },
+  "service_group": {
+    "medical": 5262,
+    "surgical": 3504,
+    "neuro": 2459,
+    "cardiac_surgery": 32,
+    "other": 2
+  },
+  "loc_group": {
+    "ed": 6023,
+    "transfer": 3038,
+    "referral": 1978,
+    "or": 129,
+    "unknown": 91
+  },
+  "era": {
+    "2008 - 2010": 3116,
+    "2014 - 2016": 2644,
+    "2011 - 2013": 2625,
+    "2017 - 2019": 2158,
+    "2020 - 2022": 716
+  },
+  "prior_hosp_30d_n": 733,
+  "prior_hosp_30d_pct": 6.51,
+  "elixhauser_sum_mean": 4.19,
+  "elixhauser_vw_mean": 12.159
+}

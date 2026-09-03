@@ -1,0 +1,27 @@
+{
+  "title": "Route A clone-censor-weight scripts and locked item mapping for a target trial of enteral nutrition timing in MIMIC-IV",
+  "description": "# Route A clone-censor-weight analysis code (MIMIC-IV / eICU)\n\nAnalysis scripts and the locked item mapping for:\n\nTiming of Enteral Nutrition Initiation in Mechanically Ventilated Adults:\nA Target Trial Emulation in MIMIC-IV with Feasibility Replication in eICU-CRD.\n\nProtocol: OSF DOI 10.17605/OSF.IO/QJMGX\n\n## What is in this archive\n\n- `tools/routeA_*.py` \u2014 cohort, IPCW, MSM, bootstrap, MICE, eICU feasibility, figures\n- `workspace/itemid_mapping.csv` \u2014 locked Nutrition-Enteral and vasopressor mapping (SHA-256 65eb634a2066fa988cfa81a322e4b2b5fc67515aecd3a1c36cde56e5b885e590)\n- `notes/` \u2014 aggregate JSON/CSV receipts (no patient-level rows)\n\n## What is not in this archive\n\nMIMIC-IV and eICU-CRD patient-level extracts are **not** included. Those databases are available to credentialed PhysioNet users under a data use agreement. Redistribution of the underlying records is not permitted.\n\n## Reproduce\n\n1. Obtain MIMIC-IV v3.1 and eICU-CRD v2.0 from PhysioNet.\n2. Point the scripts at local gzip CSV paths (see each `routeA_*.py` header).\n3. Python 3.11+, numpy, pandas, duckdb, matplotlib.\n\nPrimary confirmed contrast (restricted ventilated non-CVICU/CCU cohort, n=11,259):\nMSM 28-day death 0.374 vs 0.227; RD 0.147 (BCa 0.131\u20130.164); RR 1.65 (1.57\u20131.74).\n",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Xu, Jinlong",
+      "affiliation": "Mianyang Central Hospital"
+    }
+  ],
+  "keywords": [
+    "enteral nutrition",
+    "target trial emulation",
+    "MIMIC-IV",
+    "critical care"
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/QJMGX",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}
