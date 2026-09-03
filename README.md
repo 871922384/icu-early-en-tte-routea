@@ -7,6 +7,8 @@ A Target Trial Emulation in MIMIC-IV with Feasibility Replication in eICU-CRD.
 
 Protocol: OSF DOI 10.17605/OSF.IO/QJMGX
 
+Archive DOI: https://doi.org/10.5281/zenodo.22270835 (concept DOI 10.5281/zenodo.22270834)
+
 ## What is in this archive
 
 - `tools/routeA_*.py` — cohort, IPCW, MSM, bootstrap, MICE, eICU feasibility, figures
